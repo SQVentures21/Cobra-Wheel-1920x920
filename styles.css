@@ -148,10 +148,9 @@ a {
 }
 
 .main-image {
-  display: flex;
-  justify-content: center;
   height: 420px;
   z-index: 9999;
+    margin: 0 auto;
 }
 
 .modal-text-p {
