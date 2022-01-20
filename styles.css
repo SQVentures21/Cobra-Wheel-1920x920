@@ -10,7 +10,9 @@ body {
   background-image: url("assets/back.png");
   background-size: cover;
   background-repeat: no-repeat;
-   overflow-x: hidden;
+  background-position: center;
+  overflow-x: hidden;
+
 }
 
 a {
@@ -152,9 +154,10 @@ a {
   z-index: 9999;
   display: flex;
   justify-content: space-around;
-   flex-wrap: wrap;
+  flex-wrap: wrap;
   width:100vw;
   margin-top:-65px;
+ 
 }
 
 .modal-text-p {
@@ -168,18 +171,31 @@ a {
   margin-top: 232px;
 }
 
+
+.modal-text-p1
+
+{
+  font-family: Roboto;
+font-size: 32px;
+font-style: italic;
+font-weight: 900;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+
+  
+}
+
 .modal-text-p2
 {
   font-family: Roboto;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 38px;
   letter-spacing: 0em;
   text-align: center;
-  margin-top: 212px;
-  
-  
+
 }
 
 .modal-text-2 {
@@ -197,4 +213,43 @@ a {
   width: 267px;
   display: flex;
   justify-content: center;
+}
+
+
+
+
+@media only screen and (max-width:1366px)
+{
+
+
+
+}
+
+
+@media only screen and (min-width:2200px) {
+  
+
+  .main-image{
+    padding-top:7vh;
+ 
+  }
+
+
+  
+#app 
+{
+  width:600px;
+  height:600px;
+  
+}
+
+.marker {
+  position: absolute;
+  width: 60px;
+  left:45%;
+  top: -20px;
+  z-index: 2;
+}
+
+
 }
