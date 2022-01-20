@@ -152,6 +152,9 @@ a {
   z-index: 9999;
   display: flex;
   justify-content: space-around;
+   flex-wrap: wrap;
+  width:100vw;
+  margin-top:-65px;
 }
 
 .modal-text-p {
